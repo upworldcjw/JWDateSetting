@@ -50,7 +50,6 @@ static NSInteger const sOneDayTime = 24 * 60 * 60;
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
-//    _tableView.delegate = self;
     _tableView.dataSource = self;
     [self.view addSubview:_tableView];
     
