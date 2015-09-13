@@ -1,7 +1,12 @@
+#ignore setting related
+#
 #https://github.com/github/gitignore/blob/master/Objective-C.gitignore
+#
+#http://blog.csdn.net/thanklife/article/details/37934285
+#
+
 
 # OS X temporary files that should never be committed
-
 .DS_Store
 *.swp
 *.lock
