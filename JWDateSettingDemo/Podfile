@@ -3,11 +3,6 @@ platform :ios, '8.0'
 # Uncomment this line if you're using Swift
 use_frameworks!
 
-target 'JWDateSettingDemo' do
-pod 'JWDateSetting'
-end
+pod 'JWDateSetting',:git => 'https://github.com/upworldcjw/JWDateSetting.git'
 
-target 'JWDateSettingDemoTests' do
-
-end
 
