@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CFC64FFB730DD41FA3A77DD97A07B15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		3EA70562D9E0430FF68B2364178F638D /* NSDate+DateSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC48ECB8EF91EB6F8E26AA06C9BC1D0 /* NSDate+DateSetting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		528077777B06EE5D5E0BF5FC4EBCC8CC /* JWDateSetting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ED3BADB7E78C7B059E850362A072F8 /* JWDateSetting-dummy.m */; };
+		5A8C0B27BD9A876BA35FC78F5FB5EDBB /* NSDate+DateSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B4A7517369A31B2F2663AEF1565AA4 /* NSDate+DateSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74443B81AF5C37F13A2854AA0C17F3FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		7481678A8CF753D5A631E9A0316844ED /* Pods-JWDateSettingDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF547CEB95CA4C5E8A684835EC731518 /* Pods-JWDateSettingDemo-dummy.m */; };
+		C8A78FFD0E8B7BF7FA4C234B9D4B753E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F776C045F91A41066B93E7F732A664EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EFF8E3076644A84F69F0AAF9065AF5F;
+			remoteInfo = JWDateSetting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C4228CC4611CA59BB856AD5A3F9E56F /* libPods-JWDateSettingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWDateSettingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		412C00754401B5A5971FE8566C58D551 /* Pods-JWDateSettingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWDateSettingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4E6BF8B53B76026E04AE7A56F5DC40E2 /* libJWDateSetting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJWDateSetting.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B99C4A0E429EC9F22003216E4C8BAFF /* JWDateSetting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWDateSetting-prefix.pch"; sourceTree = "<group>"; };
+		6BF521C00EA40CD9F35E20C9F60EB238 /* Pods-JWDateSettingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWDateSettingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		736D276829FE42A1E79A8C800F81002C /* Pods-JWDateSettingDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWDateSettingDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DD946B59AAEEC08C1B0514D1DB549BF /* Pods-JWDateSettingDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWDateSettingDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		8510707D2C331574428F5E2DAD03CD37 /* Pods-JWDateSettingDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWDateSettingDemo-resources.sh"; sourceTree = "<group>"; };
+		88ED3BADB7E78C7B059E850362A072F8 /* JWDateSetting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWDateSetting-dummy.m"; sourceTree = "<group>"; };
+		91B4A7517369A31B2F2663AEF1565AA4 /* NSDate+DateSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateSetting.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A3322CDC5C6B5E0A7F9D469087CC6973 /* Pods-JWDateSettingDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWDateSettingDemo-frameworks.sh"; sourceTree = "<group>"; };
+		CB34ACACA1E7CF20511AB68C9C583E37 /* JWDateSetting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWDateSetting.xcconfig; sourceTree = "<group>"; };
+		CF547CEB95CA4C5E8A684835EC731518 /* Pods-JWDateSettingDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWDateSettingDemo-dummy.m"; sourceTree = "<group>"; };
+		DFC48ECB8EF91EB6F8E26AA06C9BC1D0 /* NSDate+DateSetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateSetting.m"; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5528F51233665F7CD256F16C30381EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFC64FFB730DD41FA3A77DD97A07B15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A139CB35A4127D6747C32D97232EE7F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74443B81AF5C37F13A2854AA0C17F3FF /* Foundation.framework in Frameworks */,
+				C8A78FFD0E8B7BF7FA4C234B9D4B753E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323D5A1A14977ACDC41E2284B7829D9E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				738BF6DDE572EA45CD4E4769D30EC51A /* JWDateSetting */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		738BF6DDE572EA45CD4E4769D30EC51A /* JWDateSetting */ = {
+			isa = PBXGroup;
+			children = (
+				BD78FC09170E1C36B1E6F9CA444D4B24 /* JWDateSetting */,
+				DC85A3836A72A5A99E67DD0271E50F79 /* Support Files */,
+			);
+			name = JWDateSetting;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				323D5A1A14977ACDC41E2284B7829D9E /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				8724EE8E77AD07EE262B864CCB59564A /* Products */,
+				F267BC64DFC8CC14787DA16AB0B8D8E5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		817851C55E7E92D64F43551D1E45895C /* Pods-JWDateSettingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				736D276829FE42A1E79A8C800F81002C /* Pods-JWDateSettingDemo-acknowledgements.markdown */,
+				7DD946B59AAEEC08C1B0514D1DB549BF /* Pods-JWDateSettingDemo-acknowledgements.plist */,
+				CF547CEB95CA4C5E8A684835EC731518 /* Pods-JWDateSettingDemo-dummy.m */,
+				A3322CDC5C6B5E0A7F9D469087CC6973 /* Pods-JWDateSettingDemo-frameworks.sh */,
+				8510707D2C331574428F5E2DAD03CD37 /* Pods-JWDateSettingDemo-resources.sh */,
+				412C00754401B5A5971FE8566C58D551 /* Pods-JWDateSettingDemo.debug.xcconfig */,
+				6BF521C00EA40CD9F35E20C9F60EB238 /* Pods-JWDateSettingDemo.release.xcconfig */,
+			);
+			name = "Pods-JWDateSettingDemo";
+			path = "Target Support Files/Pods-JWDateSettingDemo";
+			sourceTree = "<group>";
+		};
+		8724EE8E77AD07EE262B864CCB59564A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E6BF8B53B76026E04AE7A56F5DC40E2 /* libJWDateSetting.a */,
+				3C4228CC4611CA59BB856AD5A3F9E56F /* libPods-JWDateSettingDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD78FC09170E1C36B1E6F9CA444D4B24 /* JWDateSetting */ = {
+			isa = PBXGroup;
+			children = (
+				91B4A7517369A31B2F2663AEF1565AA4 /* NSDate+DateSetting.h */,
+				DFC48ECB8EF91EB6F8E26AA06C9BC1D0 /* NSDate+DateSetting.m */,
+			);
+			path = JWDateSetting;
+			sourceTree = "<group>";
+		};
+		DC85A3836A72A5A99E67DD0271E50F79 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB34ACACA1E7CF20511AB68C9C583E37 /* JWDateSetting.xcconfig */,
+				88ED3BADB7E78C7B059E850362A072F8 /* JWDateSetting-dummy.m */,
+				5B99C4A0E429EC9F22003216E4C8BAFF /* JWDateSetting-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "JWDateSettingDemo/Pods/Target Support Files/JWDateSetting";
+			sourceTree = "<group>";
+		};
+		F267BC64DFC8CC14787DA16AB0B8D8E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				817851C55E7E92D64F43551D1E45895C /* Pods-JWDateSettingDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E84AA60D9950216C65DB942C05DF212 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8C0B27BD9A876BA35FC78F5FB5EDBB /* NSDate+DateSetting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EFF8E3076644A84F69F0AAF9065AF5F /* JWDateSetting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50720484A12E0E9F19AE6D66EEBECFEC /* Build configuration list for PBXNativeTarget "JWDateSetting" */;
+			buildPhases = (
+				E3E5A978DEA0E0BB3A0327D776B066BF /* Sources */,
+				A139CB35A4127D6747C32D97232EE7F4 /* Frameworks */,
+				2E84AA60D9950216C65DB942C05DF212 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWDateSetting;
+			productName = JWDateSetting;
+			productReference = 4E6BF8B53B76026E04AE7A56F5DC40E2 /* libJWDateSetting.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F73DD1531435AB075953789C98EE83D3 /* Pods-JWDateSettingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6381E6907F1C301F621F47027E7FE7 /* Build configuration list for PBXNativeTarget "Pods-JWDateSettingDemo" */;
+			buildPhases = (
+				AB1C14530C625F057A8BCEAABC0F4C2A /* Sources */,
+				5528F51233665F7CD256F16C30381EB0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF30B4FD04514074723A981CA7B9F157 /* PBXTargetDependency */,
+			);
+			name = "Pods-JWDateSettingDemo";
+			productName = "Pods-JWDateSettingDemo";
+			productReference = 3C4228CC4611CA59BB856AD5A3F9E56F /* libPods-JWDateSettingDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8724EE8E77AD07EE262B864CCB59564A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EFF8E3076644A84F69F0AAF9065AF5F /* JWDateSetting */,
+				F73DD1531435AB075953789C98EE83D3 /* Pods-JWDateSettingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1C14530C625F057A8BCEAABC0F4C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7481678A8CF753D5A631E9A0316844ED /* Pods-JWDateSettingDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E5A978DEA0E0BB3A0327D776B066BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528077777B06EE5D5E0BF5FC4EBCC8CC /* JWDateSetting-dummy.m in Sources */,
+				3EA70562D9E0430FF68B2364178F638D /* NSDate+DateSetting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF30B4FD04514074723A981CA7B9F157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JWDateSetting;
+			target = 2EFF8E3076644A84F69F0AAF9065AF5F /* JWDateSetting */;
+			targetProxy = F776C045F91A41066B93E7F732A664EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F3912B01B99E330D9E907B830BCB221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF521C00EA40CD9F35E20C9F60EB238 /* Pods-JWDateSettingDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2688DE094B2FACE23A5CB3BBA2726B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB34ACACA1E7CF20511AB68C9C583E37 /* JWDateSetting.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JWDateSetting/JWDateSetting-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		93FB5855423F8C84CDF99FC8ED540BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 412C00754401B5A5971FE8566C58D551 /* Pods-JWDateSettingDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8CF76C298BC1F2AEB6F32A4AA119547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB34ACACA1E7CF20511AB68C9C583E37 /* JWDateSetting.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JWDateSetting/JWDateSetting-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F6381E6907F1C301F621F47027E7FE7 /* Build configuration list for PBXNativeTarget "Pods-JWDateSettingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FB5855423F8C84CDF99FC8ED540BA5 /* Debug */,
+				1F3912B01B99E330D9E907B830BCB221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50720484A12E0E9F19AE6D66EEBECFEC /* Build configuration list for PBXNativeTarget "JWDateSetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2688DE094B2FACE23A5CB3BBA2726B8C /* Debug */,
+				D8CF76C298BC1F2AEB6F32A4AA119547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
